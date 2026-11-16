@@ -301,3 +301,10 @@ button { font: inherit; color: inherit; cursor: pointer; }
 #relato[data-id="luna"] #relato-img { background-position: 66% center; }
 #relato[data-id="marte"] #relato-img { background-position: 68% center; }
 #relato[data-id="final"] #relato-img { background-position: 70% center; }
+
+/* Marca visible: las 4 ilustraciones de las pantallas de historia fueron generadas con IA */
+#relato::before {
+  content: "AI-generated image · Imagen generada con IA"; position: absolute; top: 10px; right: 10px; z-index: 3;
+  background: rgba(5,8,24,.78); border: 1px solid rgba(255,255,255,.45); border-radius: 999px; padding: 4px 10px;
+  font-size: 11.5px; font-weight: 700; color: #fff; pointer-events: none;
+}
