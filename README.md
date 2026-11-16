@@ -91,15 +91,7 @@ Starlight Journey convierte la historia de la exploración espacial en una avent
 - Inglés y español desde el encabezado; pestañas "Propósito" y "Quiénes somos".
 - Funciona en computador y celular.
 
-### Cómo verlo en tu computador
-Abrir `index.html` con doble clic no funciona (el navegador bloquea los modelos 3D). Desde la carpeta del proyecto ejecuta:
-
-```
-python3 -m http.server
-```
-
-Luego entra a http://localhost:8000
-
+ 
 ### Datos de la NASA, herramientas e IA
 Las fuentes de la NASA y del JPL son las listadas arriba. Se usó inteligencia artificial: Claude (programación, integración de modelos 3D y apoyo con los textos), ChatGPT y Gemini (ilustraciones) y ElevenLabs (voces). Las ilustraciones son representaciones artísticas, no fotografías reales. La información fue revisada por el equipo.
 
