@@ -433,6 +433,17 @@ addEventListener('keydown', (e) => {
 /* =====================================================================
    ESCENA 2: VISOR 3D
    ===================================================================== */
+/* ---------------------------------------------------------------------
+   AVISO DE USO DE IA / AI-USE NOTICE (3D models)
+   The 3D viewer below (loading the NASA GLB models, splitting them into
+   parts, the take-apart / assemble view, part highlighting and camera
+   moves) was written with the help of Claude (Anthropic), an AI assistant,
+   and reviewed by the team. The 3D models themselves come from NASA 3D
+   Resources; the part grouping was prepared with AI-assisted scripts.
+   El visor 3D de abajo (carga de modelos NASA, separación en piezas, vista
+   desarmada/armada, resaltado y cámara) fue escrito con ayuda de Claude
+   (Anthropic), un asistente de IA, y revisado por el equipo.
+   --------------------------------------------------------------------- */
 const visor = (() => {
   const lienzo = $('#lienzo'), caja = $('#visor');
   const renderer = new THREE.WebGLRenderer({ canvas: lienzo, antialias: true, alpha: true });
