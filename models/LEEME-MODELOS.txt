@@ -1,0 +1,12 @@
+MODELOS 3D / 3D MODELS
+======================
+Los 5 archivos .glb son modelos de NASA 3D Resources (https://science.nasa.gov/3d-resources/).
+The 5 .glb files are models from NASA 3D Resources.
+
+Uso de IA / AI use:
+- El código que carga estos modelos y permite desarmarlos y armarlos pieza por pieza
+  (js/app.js, sección "VISOR 3D") fue escrito con ayuda de Claude (Anthropic) y revisado por el equipo.
+- Los guiones usados para dividir cada modelo en piezas también fueron hechos con ayuda de Claude.
+- The code that loads these models and lets users take them apart and assemble them piece by piece
+  (js/app.js, "VISOR 3D" section) was written with the help of Claude (Anthropic) and reviewed by the team.
+- The scripts used to split each model into parts were also made with Claude's help.
