@@ -30,15 +30,6 @@ Starlight Journey turns the history of space exploration into an adventure. User
 - English and Spanish, switchable from the header; "Purpose" and "About us" tabs.
 - Works on desktop and mobile.
 
-### Run it locally
-Opening `index.html` by double-click will not work (browsers block the 3D models). From the project folder run:
-
-```
-python3 -m http.server
-```
-
-Then open http://localhost:8000
-
 ### Project structure
 ```
 index.html        the page
